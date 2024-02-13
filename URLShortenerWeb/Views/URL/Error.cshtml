@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Error";
+}
+
+<div>
+    <h1>Something went wrong!</h1>
+    <ul>
+        <li>
+            Ensure you have typed the correct URL.
+        </li>
+        <li>
+            Ensure the URL starts with http.
+        </li>
+        <li>
+            Ensure you did not leave the textbox blank.
+        </li>
+    </ul>
+   
+</div>
+
+@Html.ActionLink("Go Back","GenerateURL", "URL")

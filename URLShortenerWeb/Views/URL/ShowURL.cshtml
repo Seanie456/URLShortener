@@ -1,0 +1,16 @@
+﻿@model URLShortenerWeb.Data.Url
+
+@{
+    ViewData["Title"] = "Show Short URL";
+}
+
+<h1>
+    URL Shortener Result
+</h1>
+<hr />
+
+<p>Original URL: @Model.OriginalUrl</p>
+<p>Short URL: @Model.ShortenedUrlcode</p>
+
+
+@Html.ActionLink("Follow short link","RedirectTo","URL", new {shortURLCode = @Model.ShortenedUrlcode}, new {@class = "btn btn-info" })

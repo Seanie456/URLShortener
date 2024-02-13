@@ -1,0 +1,22 @@
+﻿@model URLShortenerWeb.Data.Url
+
+@{
+    ViewData["Title"] = "Generate URL";
+}
+
+<h2>Welcome to the best URL code shortener on the internet!</h2>
+<hr />
+
+<p>URL Shortener allows the user to shorten long links from anywhere on the web! Ensure your link starts with http or https or you will receive an error.</p>
+
+@using(Html.BeginForm("GenerateURL","URL", FormMethod.Post, new { @class = "form-class"})){
+
+    <div class="col-6 form-group">
+        @Html.LabelFor(model => model.OriginalUrl,"Enter URL below", new { @class = "control-label" })
+        @Html.EditorFor(model => model.OriginalUrl, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter URL to shorten", @autocomplete = "off" } })
+        @Html.ValidationMessageFor(model => model.OriginalUrl, "", new { @class = "text-danger" })
+    </div>
+    <br />
+
+     <button type="submit" class="btn btn-success">Generate Short URL</button>
+}
