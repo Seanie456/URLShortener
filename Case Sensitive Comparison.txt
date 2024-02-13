@@ -1,0 +1,3 @@
+ALTER TABLE Urls
+ALTER COLUMN ShortenedUrlcode VARCHAR(8)
+COLLATE SQL_Latin1_General_CP1_CS_AS;
