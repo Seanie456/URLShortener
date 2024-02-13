@@ -33,3 +33,13 @@
 2024-02-13 17:45:07.4089 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\SeanKelly\Source\Repos\URLShortener\URLShortenerWeb\bin\Debug\net6.0\nlog.config
 2024-02-13 17:45:07.4313 Info Configuration initialized.
 2024-02-13 17:45:07.8079 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\SeanKelly\Source\Repos\URLShortener\URLShortenerWeb\bin\Debug\net6.0\nlog.config
+2024-02-13 17:53:20.9826 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-13 17:53:21.0202 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-13 17:53:21.0440 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\SeanKelly\Source\Repos\URLShortener\URLShortenerWeb\bin\Debug\net6.0\nlog.config
+2024-02-13 17:53:21.0594 Info Configuration initialized.
+2024-02-13 17:53:21.2579 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\SeanKelly\Source\Repos\URLShortener\URLShortenerWeb\bin\Debug\net6.0\nlog.config
+2024-02-13 18:05:23.4340 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-13 18:05:23.4704 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-13 18:05:23.4919 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\SeanKelly\Source\Repos\URLShortener\URLShortenerWeb\bin\Debug\net6.0\nlog.config
+2024-02-13 18:05:23.5074 Info Configuration initialized.
+2024-02-13 18:05:23.7673 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\SeanKelly\Source\Repos\URLShortener\URLShortenerWeb\bin\Debug\net6.0\nlog.config
